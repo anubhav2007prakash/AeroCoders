@@ -1,0 +1,15 @@
+from app.routers import (
+    weather,
+    locations,
+    favourites,
+    notifications,
+    radar,
+    rain_alert,
+    cyclone,
+    lightning,
+    aviation,
+    agromet,
+    route_nowcast,
+    crowd_source,
+    settings,
+)
