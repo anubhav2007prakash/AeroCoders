@@ -1,0 +1,70 @@
+@import "leaflet/dist/leaflet.css";
+@import "tailwindcss";
+
+:root {
+  --mausam-blue: #0055A6;
+  --mausam-card-blue: #3C709F;
+  --mausam-dark-blue: #06345C;
+  --mausam-yellow: #FFBE00;
+  --mausam-dark-yellow: #F0AE00;
+  --mausam-green: #8ED329;
+  --mausam-gray-blue: #A7C0D6;
+  --mausam-red: #FF2020;
+  --mausam-cyan: #00DDE5;
+  --background: #0055A6;
+  --foreground: #FFFFFF;
+}
+
+body {
+  background-color: #004586;
+  color: #FFFFFF;
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile Frame Wrapper */
+.mobile-viewport-container {
+  width: 100%;
+  max-width: 430px;
+  min-height: 100vh;
+  margin: 0 auto;
+  background-color: #0055A6;
+  position: relative;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+}
+
+/* Custom scrollbar for mobile container */
+::-webkit-scrollbar {
+  width: 4px;
+  height: 4px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 4px;
+}
+
+/* Leaflet Overrides for Mobile Mausam Theme */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  background: #06345C !important;
+  font-family: inherit !important;
+}
+
+.leaflet-control-attribution {
+  font-size: 9px !important;
+  background: rgba(6, 52, 92, 0.75) !important;
+  color: #A7C0D6 !important;
+}
+
+.leaflet-control-attribution a {
+  color: #FFFFFF !important;
+}
