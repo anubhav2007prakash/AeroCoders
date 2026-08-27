@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # IMD "Mausam" Mobile Weather Application - Baseline Re-creation
 
 A high-fidelity full-stack web application faithfully recreating the existing **India Meteorological Department (IMD) “Mausam”** Android weather application.
@@ -218,6 +217,3 @@ In Phase 2, this baseline will be enhanced to implement:
 - **User Persona Engine**: Contextual homepages tailored for Farmers, Commuters, Travelers, Event Planners, Runners, and Parents.
 - **Smart Adaptive Cards**: Personalized comfort indices, running windows, packing suggestions, and agricultural actionable tips.
 - **AI Recommendation Engine**: Predictive advice based on live weather data.
-=======
-# AeroCoders
->>>>>>> efdce639abd3d795c3e8ce34da6ac79e776d1d90
